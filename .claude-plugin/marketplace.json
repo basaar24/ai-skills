@@ -1,0 +1,17 @@
+{
+  "name": "arcteryx-skills",
+  "owner": {
+    "name": "arcteryx"
+  },
+  "metadata": {
+    "description": "Marketplace for arcteryx ai skills",
+    "version": "2.0.0"
+  },
+  "plugins": [
+    {
+      "name": "coding",
+      "source": ".",
+      "description": "Skill pack for agentic loops, commit messages and documentation updates"
+    }
+  ]
+}
