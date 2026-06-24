@@ -1,15 +1,19 @@
 ---
 name: meta-prompt
-description: Rewrite prompts using prompt-engineering best practices. Use when the user asks to improve, structure, refine, or make a prompt more precise.
-license: MIT
-compatibility: Kiro IDE skill wrapper. Canonical source lives in ai-specs/skills.
-metadata:
-  author: AgendaBot
-  version: "1.0.0"
+description: Rewrite prompts using prompt-engineering best practices for precise and complete results.
+author: LIDR.co
+version: 1.0.0
 ---
+# meta-prompt Skill
 
-# meta-prompt
+Use it when this workflow is required in the project.
 
-This is a Kiro wrapper for the canonical skill.
+## Instructions
 
-Before using this skill, read `../../../ai-specs/skills/meta-prompt/SKILL.md` and follow it as the source of truth.
+# Instructions
+
+You are an expert in prompt engineering.
+Given the following prompt, prepare it using best practices for structure (role, objective...) and format to achieve a precise and exhaustive result. Stick only to the requested objective by carefully analyzing what is asked in the original prompt
+
+# Original prompt:
+[The prompt that the user introduces in the command]
