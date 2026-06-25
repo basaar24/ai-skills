@@ -1,10 +1,10 @@
 {
-  "name": "arcteryx-skills",
+  "name": "custom-ai-skills",
   "owner": {
-    "name": "arcteryx"
+    "name": "custom-ai"
   },
   "metadata": {
-    "description": "Marketplace for arcteryx ai skills",
+    "description": "Marketplace for custom-ais ai skills",
     "version": "2.0.0"
   },
   "plugins": [
