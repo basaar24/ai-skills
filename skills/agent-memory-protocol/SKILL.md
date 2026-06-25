@@ -1,5 +1,5 @@
 ---
-name: agent-memory-architecture
+name: agent-memory-protocol
 description: Provides session and long-term memory management using Serena MCP tools. Replaces file-based memory (MEMORY.md, daily logs) with Serena-backed working memory and long-term vector memory. Defines session boot protocol, write policies, promotion criteria, and security boundaries using MCP tool calls.
 keywords: memory, serena, working-memory, long-term-memory, mcp, session
 requires:
@@ -8,7 +8,7 @@ risk: low
 source: workspace
 ---
 
-# MEMORY ARCHITECTURE SKILL (Serena MCP)
+#Skill: agent-memory-protocol / MEMORY ARCHITECTURE SKILL (Serena MCP)
 
 This skill provides structured cognitive persistence across sessions using
 **Serena MCP tools** for memory management.
